@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Copperplate&display=swap');
 
@@ -26,7 +26,7 @@ body {
   text-align: center;
   font-size: 28px;
   font-family: "Script MT", cursive;
-  margin: 0;
+  margin: 15px;
 }
 
 .header__nav {
@@ -34,18 +34,18 @@ body {
   justify-content: center;
 }
 
-.header__nav-list {
+.header__nav__list {
   list-style: none;
-  margin: 100;
+  margin: 0;
   padding: 0;
   display: flex;
 }
 
-.header__nav-item {
+.header__nav__item {
   margin-right: 20px;
 }
 
-.header__nav-link {
+.header__nav__link {
   color: #3414c1;
   text-decoration: none;
   text-transform: uppercase;
@@ -94,7 +94,14 @@ body {
   font-size: 28px;
   margin-bottom: 20px;
   font-family: Arial, sans-serif;
-  
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #0099ff;
+  margin: 40px auto;
+  max-width: 20%;
 }
 
 .destination {
@@ -112,11 +119,13 @@ body {
 .destination__title {
   font-size: 18px;
   font-family: 'Brush Script MT', cursive;
-  color: #6b6dd5; 
+  color: #6b6dd5;
 }
+
 /* Box container*/
 .more-blog-container {
   text-align: center;
+  margin-top: 20px;
 }
 
 .more-blog-box {
@@ -130,7 +139,6 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-
 
 /* Footer Styles */
 .footer {
